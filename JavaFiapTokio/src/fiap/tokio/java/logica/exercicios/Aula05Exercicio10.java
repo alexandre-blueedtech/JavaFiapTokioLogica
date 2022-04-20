@@ -8,14 +8,14 @@ public class Aula05Exercicio10 {
 
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.print("Digite quantos anos de idade você tem: ");
+		System.out.print("Digite quantos anos de idade vocï¿½ tem: ");
 		String anosStr = entrada.nextLine();
 		int anos = Integer.parseInt(anosStr);
 		
-		System.out.print("Digite quantos meses de idade você tem: ");
+		System.out.print("Digite quantos meses de idade vocï¿½ tem: ");
 		int meses = Integer.parseInt(entrada.nextLine());
 		
-		System.out.print("Digite quantos dias de idade você tem: ");
+		System.out.print("Digite quantos dias de idade vocï¿½ tem: ");
 		int dias = Integer.parseInt(entrada.nextLine());
 		
 		int anosParaDias = anos * 365;
@@ -24,9 +24,9 @@ public class Aula05Exercicio10 {
 		int totalDias = anosParaDias + mesesParaDias + dias;
 		
 		System.out.println("");
-		System.out.println("Você já viveu: " + totalDias + " dias!");
+		System.out.println("Vocï¿½ jï¿½ viveu: " + totalDias + " dias!");
 		
-		entrada.close();
+		entrada.close(); // fecha
 
 	}
 
